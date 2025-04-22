@@ -36,7 +36,7 @@ async def get_all_scrapers(context):
 async def fetch_all_metadata(scrapers):
     data = {}
     for name, scraper in scrapers.items():
-        urls = await scraper.get_race_urls()
+        urls = await scraper.get_race_urls(tommorow=True)
         races = await scraper.get_race_metadata_batch(urls)
         data[name] = races
     return data
@@ -55,8 +55,6 @@ async def match_races():
         # Get intersection of all race keys
         all_keys = list(race_maps.values())
         common_keys = set(all_keys[0]).intersection(*all_keys[1:])
-
-        logger.info(all_keys)
 
         logger.info(f"Found {len(common_keys)} matched races across all sources")
 
