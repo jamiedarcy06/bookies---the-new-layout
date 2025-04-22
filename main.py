@@ -12,7 +12,7 @@ logger = setup_logger("Main")
 
 async def coordinator():
     async with BrowserManager() as context:
-        matched = await load_or_create_matched_races()
+        matched = await load_or_create_matched_races(tommorow=True)
         sb = SportsbetRace(matched[0]['sportsbet']['url'], context)
         bf = BetfairRace(matched[0]['betfair']['url'], context)
 
@@ -33,4 +33,3 @@ async def coordinator():
 
 if __name__ == "__main__":
     launch_ui(coordinator)
-

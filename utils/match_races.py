@@ -73,7 +73,7 @@ def is_file_modified_today(path):
     modified_time = datetime.fromtimestamp(os.path.getmtime(path))
     return modified_time.date() == datetime.today().date()
 
-async def load_or_create_matched_races():
+async def load_or_create_matched_races(tommorow=False): # this dosen't change the tommorow above lmao
     if is_file_modified_today(MATCHED_RACES_FILE):
         with open(MATCHED_RACES_FILE, "r", encoding="utf-8") as f:
             logger.info("Reading matched races from cache.")
@@ -84,8 +84,11 @@ async def load_or_create_matched_races():
         with open(MATCHED_RACES_FILE, "w", encoding="utf-8") as f:
             json.dump(all_matches, f, indent=2)
 
+    if tommorow == True:
+        logger.info("Matched races are being served with tommorow=True")
+
     # Filter races that are still upcoming
-    upcoming_matches = [match for match in all_matches if is_future_race(match)]
+    upcoming_matches = [match for match in all_matches if (is_future_race(match) or tommorow == True)]
     return upcoming_matches
 
 
