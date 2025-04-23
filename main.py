@@ -23,13 +23,21 @@ async def coordinator():
         # Create race objects for each matched race
         race_objects = []
         try:
+            # Initialize all race objects concurrently
+            init_tasks = []
             for race in matched_races:
                 sb = SportsbetRace(race['sportsbet']['url'], context)
                 bf = BetfairRace(race['betfair']['url'], context)
-                # Initialize pages for both races
-                await sb.initialize()
-                await bf.initialize()
                 race_objects.append((sb, bf))
+                init_tasks.extend([
+                    asyncio.create_task(sb.initialize()),
+                    asyncio.create_task(bf.initialize())
+                ])
+            
+            # Wait for all initializations to complete
+            logger.info("Initializing all race pages concurrently")
+            await asyncio.gather(*init_tasks)
+            logger.info("All race pages initialized successfully")
 
             async def update_odds():
                 while True:
@@ -71,9 +79,13 @@ async def coordinator():
             logger.error(f"Error in coordinator: {e}")
         finally:
             # Cleanup all race objects
+            cleanup_tasks = []
             for sb, bf in race_objects:
-                await sb.cleanup()
-                await bf.cleanup()
+                cleanup_tasks.extend([
+                    asyncio.create_task(sb.cleanup()),
+                    asyncio.create_task(bf.cleanup())
+                ])
+            await asyncio.gather(*cleanup_tasks)
 
 if __name__ == "__main__":
     launch_ui(coordinator, matched_races=load_or_create_matched_races)

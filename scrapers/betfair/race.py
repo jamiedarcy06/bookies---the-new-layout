@@ -82,7 +82,8 @@ class BetfairRace:
                     # Refresh the page content
                     refresh_button = self.page.locator("button.refresh-btn")
                     await refresh_button.click(force=True)
-                    await self.page.wait_for_timeout(1000)  # Wait for refresh
+                    # Reduced wait time after refresh - we'll wait for content instead
+                    await self.page.wait_for_selector(".runner-name", timeout=5000)
 
                     # Get page HTML and parse it
                     html = await self.page.content()
