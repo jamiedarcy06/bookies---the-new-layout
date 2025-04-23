@@ -36,7 +36,7 @@ async def get_all_scrapers(context):
 async def fetch_all_metadata(scrapers):
     data = {}
     for name, scraper in scrapers.items():
-        urls = await scraper.get_race_urls(tommorow=True)
+        urls = await scraper.get_race_urls(tommorow=False)
         races = await scraper.get_race_metadata_batch(urls)
         data[name] = races
     return data
