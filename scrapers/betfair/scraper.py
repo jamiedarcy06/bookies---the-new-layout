@@ -69,6 +69,10 @@ class BetfairScraper:
         for i in range(0, len(races), batch_size):
             batch = races[i:i + batch_size]
             self.logger.info(f"Processing races {i+1} to {i+len(batch)}")
-            infos = await asyncio.gather(*(race.fetch_metadata() for race in batch))
-            results.extend(infos)
+            try:
+                infos = await asyncio.gather(*(race.fetch_metadata() for race in batch))
+                results.extend(infos)
+            finally:
+                # Clean up the pages after getting metadata
+                await asyncio.gather(*(race.cleanup() for race in batch))
         return results
