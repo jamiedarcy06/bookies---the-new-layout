@@ -89,3 +89,4 @@ async def coordinator():
 
 if __name__ == "__main__":
     launch_ui(coordinator, matched_races=load_or_create_matched_races)
+    

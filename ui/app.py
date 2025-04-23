@@ -8,9 +8,9 @@ from utils.logger import setup_logger
 logger = setup_logger("UI")
 
 async def initialize_races(graph, matched_races_coro):
-    # Load matched races
-    matched_races = await matched_races_coro(tommorow=True)
-    # Limit to first 5 races
+    # Load matched races (already sorted by time in load_or_create_matched_races)
+    matched_races = await matched_races_coro(tommorow=False)
+    # Take the first 5 upcoming races
     matched_races = matched_races[:5]
     logger.info(f"Initializing UI with {len(matched_races)} races")
     # Update GUI with matched races

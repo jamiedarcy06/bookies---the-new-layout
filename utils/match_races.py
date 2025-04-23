@@ -73,6 +73,20 @@ def is_file_modified_today(path):
     modified_time = datetime.fromtimestamp(os.path.getmtime(path))
     return modified_time.date() == datetime.today().date()
 
+def get_race_datetime(race):
+    try:
+        time_str = race["betfair"]["race_time"]
+        race_time = datetime.strptime(time_str, "%H:%M").time()
+        today = datetime.now().date()
+        return datetime.combine(today, race_time)
+    except Exception as e:
+        logger.info(f"Error getting race datetime: {e}")
+        return datetime.max  # Put races with invalid times at the end
+
+def sort_races_by_time(matches):
+    """Sort races by their start time."""
+    return sorted(matches, key=get_race_datetime)
+
 async def load_or_create_matched_races(tommorow=False): # this dosen't change the tommorow above lmao
     if is_file_modified_today(MATCHED_RACES_FILE):
         with open(MATCHED_RACES_FILE, "r", encoding="utf-8") as f:
@@ -89,7 +103,9 @@ async def load_or_create_matched_races(tommorow=False): # this dosen't change th
 
     # Filter races that are still upcoming
     upcoming_matches = [match for match in all_matches if (is_future_race(match) or tommorow == True)]
-    return upcoming_matches
+    # Sort races by time
+    sorted_matches = sort_races_by_time(upcoming_matches)
+    return sorted_matches
 
 
 

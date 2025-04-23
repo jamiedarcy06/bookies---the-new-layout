@@ -394,4 +394,3 @@ class OddsGraph(QtWidgets.QMainWindow):
             self.timer = QtCore.QTimer(self)
             self.timer.timeout.connect(lambda: self.update_odds(odds_store))
             self.timer.start(1000)
-
