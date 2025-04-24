@@ -22,7 +22,7 @@ class SportsbetScraper:
         race_links = []
         for a in anchors:
             href = await a.get_attribute("href")
-            if href and "/horse-racing/" in href and "race-" in href:
+            if href and ("horse-racing/" in href or "greyhound-racing/" in href) and "race-" in href:
                 race_links.append(f"https://www.sportsbet.com.au{href}")
 
         await page.close()
@@ -36,9 +36,25 @@ class SportsbetScraper:
         self.logger.info("Starting batch processing of Sportsbet race metadata")
         races = await self.get_race_objects(urls)
         results = []
+        
         for i in range(0, len(races), batch_size):
             batch = races[i:i + batch_size]
             self.logger.info(f"Processing races {i+1} to {i+len(batch)}")
-            infos = await asyncio.gather(*(race.fetch_metadata() for race in batch))
-            results.extend(infos)
+            
+            try:
+                # Gather metadata for all races in batch
+                infos = await asyncio.gather(*(race.fetch_metadata() for race in batch))
+                results.extend(infos)
+            except Exception as e:
+                self.logger.error(f"Error processing batch {i+1} to {i+len(batch)}: {e}")
+                raise
+            finally:
+                # Ensure cleanup happens for each race in the batch
+                cleanup_tasks = []
+                for race in batch:
+                    if race.page:  # Only cleanup if page exists
+                        cleanup_tasks.append(race.cleanup())
+                if cleanup_tasks:
+                    await asyncio.gather(*cleanup_tasks, return_exceptions=True)
+                
         return results

@@ -35,7 +35,7 @@ class BetfairRace:
             soup = BeautifulSoup(html, "html.parser")
 
             title = soup.title.string if soup.title else "Unknown Title"
-            au_match = re.match(r"(\d{2}:\d{2})\s+([\w\s]+?)\s+R(\d+)\s+(\d+)m", title)
+            au_match = re.match(r"(\d{2}:\d{2})\s+([\w\s]+?)\s+R(\d+)\s+(\d+m)", title)
             uk_match = re.match(r"(\d{2}:\d{2})\s+([\w\s]+?)\s+(\d+m\d*f?)", title)
 
             if au_match:
@@ -50,12 +50,16 @@ class BetfairRace:
             race_id_match = re.search(r'market/1\.(\d+)', self.url)
             race_id = race_id_match.group(1) if race_id_match else "Unknown"
 
+            # Determine race type from URL
+            race_type = "greyhound" if "greyhound-racing" in self.url else "horse"
+
             self.metadata = {
                 "race_id": race_id,
                 "location": location,
                 "race_name": location,
                 "race_number": race_number,
                 "race_time": race_time,
+                "race_type": race_type,
                 "url": self.url
             }
 
@@ -67,8 +71,9 @@ class BetfairRace:
                 "race_id": "Unknown",
                 "location": "Unknown",
                 "race_name": "Unknown",
-                "race_number": -1,
+                "race_number": -1, # reserved unknown number for betfair
                 "race_time": "Unknown",
+                "race_type": "Unknown",
                 "url": self.url
             }
             return self.metadata
@@ -97,6 +102,8 @@ class BetfairRace:
                     i = 0
                     for idx, runner in enumerate(runners, start=1):
                         name = runner.text.strip()
+                        # Clean the name - remove apostrophes and other special characters
+                        name = name.replace("'", "").replace("'", "").strip()
                         try:
                             oddslist = [odds[i + j].text.strip() for j in range(6)]
                             domlist = [dom[i + j].text.strip() for j in range(6)]

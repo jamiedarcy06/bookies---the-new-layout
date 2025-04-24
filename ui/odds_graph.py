@@ -119,10 +119,13 @@ class OddsGraph(QtWidgets.QMainWindow):
         self.table = QtWidgets.QTableWidget()
         self.table.setColumnCount(6)
         self.table.setHorizontalHeaderLabels([
-            "Horse", "Betfair Odds", "Sportsbet Odds",
-            "Betfair Prob", "Sportsbet Prob",
+            "Horse/Dog", "Betfair Odds", "Betfair Payout", "Sportsbet Odds",
+            "Betfair Prob %", "Sportsbet Prob %"
         ])
-        self.table.horizontalHeader().setStretchLastSection(True)
+        self.table.horizontalHeader().setStretchLastSection(False)
+        header = self.table.horizontalHeader()
+        for i in range(self.table.columnCount()):
+            header.setSectionResizeMode(i, QtWidgets.QHeaderView.ResizeMode.ResizeToContents)
         self.table.setStyleSheet("color: white; background-color: #222; gridline-color: #444;")
         detail_layout.addWidget(self.table)
         
@@ -193,6 +196,18 @@ class OddsGraph(QtWidgets.QMainWindow):
         self.show_detail_view()
         self.update_odds(shared_odds)  # Refresh the display
 
+    def get_betfair_commission_rate(self, race_type):
+        """Return the Betfair commission rate based on race type."""
+        return 0.08 if race_type == "greyhound" else 0.10  # 8% for greyhounds, 10% for horses
+
+    def calculate_betfair_payout(self, odds, race_type):
+        """Calculate actual payout for Betfair odds after commission."""
+        if not odds or odds <= 0:
+            return 0
+        commission_rate = self.get_betfair_commission_rate(race_type)
+        # The payout formula is: (odds - 1) * (1 - commission_rate) + 1
+        return (odds - 1) * (1 - commission_rate) + 1
+
     def update_dashboard(self, odds_store):
         """Update the dashboard cards with latest odds information."""
         if not odds_store or 'races' not in odds_store:
@@ -209,6 +224,7 @@ class OddsGraph(QtWidgets.QMainWindow):
                 continue
                 
             race_data = race_odds[race_key]
+            race_type = race['betfair']['race_type']
             
             # Calculate probabilities and best EV
             horses = sorted(race_data.keys())
@@ -228,7 +244,10 @@ class OddsGraph(QtWidgets.QMainWindow):
                 
                 if sb_odds and bf_odds:
                     sb_prob = 1 / sb_odds if sb_odds > 0 else 0
-                    bf_prob = 1 / bf_odds if bf_odds > 0 else 0
+                    # Calculate Betfair probability with commission
+                    bf_payout = self.calculate_betfair_payout(bf_odds, race_type)
+                    bf_prob = 1 / bf_payout if bf_payout > 0 else 0
+                    
                     total_sb_prob += sb_prob
                     total_bf_prob += bf_prob
                     
@@ -244,7 +263,7 @@ class OddsGraph(QtWidgets.QMainWindow):
             card.probabilities.setText(
                 f"Sum of Probabilities:\n"
                 f"Sportsbet: {total_sb_prob:.3f}\n"
-                f"Betfair: {total_bf_prob:.3f}"
+                f"Betfair (with {self.get_betfair_commission_rate(race_type)*100:.0f}% commission): {total_bf_prob:.3f}"
             )
             
             # Color coding for EVs
@@ -281,6 +300,7 @@ class OddsGraph(QtWidgets.QMainWindow):
         race = self.matched_races[self.current_race_index]
         race_key = f"{race['betfair']['location']}_R{race['betfair']['race_number']}"
         race_odds = odds_store['races'].get(race_key, {})
+        race_type = race['betfair']['race_type']
         
         if not race_odds:
             return
@@ -288,16 +308,17 @@ class OddsGraph(QtWidgets.QMainWindow):
         horses = sorted(race_odds.keys())
         sportsbet_odds = []
         betfair_odds = []
+        betfair_payouts = []
         x = []
 
         # Update table headers
-        self.table.setColumnCount(5)
+        self.table.setColumnCount(6)
         self.table.setHorizontalHeaderLabels([
-            "Horse", "Betfair Odds", "Sportsbet Odds",
-            "Betfair Prob", "Sportsbet Prob"
+            "Horse/Dog", "Betfair Odds", "Betfair Payout", "Sportsbet Odds",
+            "Betfair Prob %", "Sportsbet Prob %"
         ])
 
-        # Set column widths
+        # Set all columns to resize to content
         header = self.table.horizontalHeader()
         for i in range(self.table.columnCount()):
             header.setSectionResizeMode(i, QtWidgets.QHeaderView.ResizeMode.ResizeToContents)
@@ -310,30 +331,34 @@ class OddsGraph(QtWidgets.QMainWindow):
             
             sb = float(race_odds[horse].get("sportsbet", {}).get("1st_back", 0) or 0)
             bf = float(race_odds[horse].get("betfair", {}).get("1st_back", 0) or 0)
+            bf_payout = self.calculate_betfair_payout(bf, race_type)
+            
             sportsbet_odds.append(sb)
             betfair_odds.append(bf)
+            betfair_payouts.append(bf_payout)
             x.append(row)
 
             # Calculate probabilities
             sb_prob = 1 / sb if sb > 0 else 0
-            bf_prob = 1 / bf if bf > 0 else 0
+            bf_prob = 1 / bf_payout if bf_payout > 0 else 0
 
             items = [
                 QtWidgets.QTableWidgetItem(horse),
                 QtWidgets.QTableWidgetItem(f"{bf:.2f}"),
+                QtWidgets.QTableWidgetItem(f"{bf_payout:.2f}"),
                 QtWidgets.QTableWidgetItem(f"{sb:.2f}"),
-                QtWidgets.QTableWidgetItem(f"{bf_prob:.3f}"),
-                QtWidgets.QTableWidgetItem(f"{sb_prob:.3f}")
+                QtWidgets.QTableWidgetItem(f"{bf_prob*100:.1f}%"),
+                QtWidgets.QTableWidgetItem(f"{sb_prob*100:.1f}%")
             ]
 
-            # Set colors for best odds
-            if bf > 0 and sb > 0:
-                if bf > sb:
-                    items[1].setBackground(QtGui.QColor("#4caf50"))
-                    items[3].setBackground(QtGui.QColor("#4caf50"))
-                elif sb > bf:
-                    items[2].setBackground(QtGui.QColor("#4caf50"))
-                    items[4].setBackground(QtGui.QColor("#4caf50"))
+            # Set colors for best odds (comparing actual payouts)
+            if bf_payout > 0 and sb > 0:
+                if bf_payout > sb:
+                    items[2].setBackground(QtGui.QColor("#4caf50"))  # Highlight Betfair payout
+                    items[4].setBackground(QtGui.QColor("#4caf50"))  # Highlight Betfair prob
+                elif sb > bf_payout:
+                    items[3].setBackground(QtGui.QColor("#4caf50"))  # Highlight Sportsbet odds
+                    items[5].setBackground(QtGui.QColor("#4caf50"))  # Highlight Sportsbet prob
 
             for col, item in enumerate(items):
                 item.setTextAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
@@ -345,7 +370,7 @@ class OddsGraph(QtWidgets.QMainWindow):
 
         width = 0.3
         sportsbet_bar = BarGraphItem(x=np.array(x) - width / 2, height=sportsbet_odds, width=width, brush=QtGui.QColor(0, 103, 171), name="Sportsbet")
-        betfair_bar = BarGraphItem(x=np.array(x) + width / 2, height=betfair_odds, width=width, brush=QtGui.QColor(255, 184, 12), name="Betfair")
+        betfair_bar = BarGraphItem(x=np.array(x) + width / 2, height=betfair_payouts, width=width, brush=QtGui.QColor(255, 184, 12), name=f"Betfair (after {self.get_betfair_commission_rate(race_type)*100:.0f}% commission)")
 
         self.plot_item.addItem(sportsbet_bar)
         self.plot_item.addItem(betfair_bar)
@@ -353,11 +378,12 @@ class OddsGraph(QtWidgets.QMainWindow):
         ticks = [[(i, horses[i]) for i in range(len(horses))]]
         self.bottom_axis.setTicks(ticks)
 
-        # Calculate totals and EV
+        # Calculate totals and EV using Betfair payouts
         sb_total_prob = sum(1/odds if odds > 0 else 0 for odds in sportsbet_odds)
-        bf_total_prob = sum(1/odds if odds > 0 else 0 for odds in betfair_odds)
-        best_ev = sum(min(1/sb if sb > 0 else float('inf'), 1/bf if bf > 0 else float('inf')) 
-                     for sb, bf in zip(sportsbet_odds, betfair_odds))
+        bf_total_prob = sum(1/payout if payout > 0 else 0 for payout in betfair_payouts)
+        best_ev = sum(min(1/sb if sb > 0 else float('inf'), 
+                         1/bf_payout if bf_payout > 0 else float('inf')) 
+                     for sb, bf_payout in zip(sportsbet_odds, betfair_payouts))
 
         # Calculate alternative EV based on sum of probabilities ratio
         alt_ev_sb = 1 / sb_total_prob if sb_total_prob > 0 else 0
@@ -368,8 +394,8 @@ class OddsGraph(QtWidgets.QMainWindow):
         summary_parts = []
         
         # Add bookmaker probabilities
-        summary_parts.append(f"Sportsbet Total: {sb_total_prob:.3f}")
-        summary_parts.append(f"Betfair Total: {bf_total_prob:.3f}")
+        summary_parts.append(f"Sportsbet Total: {sb_total_prob*100:.1f}%")
+        summary_parts.append(f"Betfair Total (with {self.get_betfair_commission_rate(race_type)*100:.0f}% commission): {bf_total_prob*100:.1f}%")
         
         # Add both EV calculations with color coding
         ev_color = "#4caf50" if best_ev <= 1 else "#f44336"

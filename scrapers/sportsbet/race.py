@@ -36,21 +36,28 @@ class SportsbetRace:
         try:
             await self.initialize()
             html = await self.page.content()
+            with open('html.html', 'w', encoding='utf-8') as f:
+                f.write(html)
             soup = BeautifulSoup(html, "html.parser")
 
             race_title = soup.find("h1", class_=lambda x: x and "title" in x.lower())
             race_name = race_title.text.strip() if race_title else "Unknown Race"
 
-            time_element = soup.find("time")
-            race_time = time_element.text.strip() if time_element else "Unknown Time"
+            time_element = soup.select_one(
+                "span.size14_f7opyze.defaultTimer_f17adqu9, span.size16_f6irgbz"
+            )
+            race_time = time_element.text.strip() if time_element else "Unknown Time" # this dosen't work - not tested at all
 
-            location_match = re.search(r"/horse-racing/([^/]+)", self.url)
-            location = location_match.group(1).replace("-", " ").title() if location_match else "Unknown Location"
+            # Update location extraction to handle both types
+            location_match = re.search(r"/(horse|greyhound)-racing/([^/]+)", self.url)
+            location = location_match.group(2).replace("-", " ").title() if location_match else "Unknown Location"
 
             race_number_match = re.search(r"Race (\d+)", race_name)
             if not race_number_match:
                 race_number_match = re.search(r"race-(\d+)-", self.url)
             race_number = race_number_match.group(1) if race_number_match else "Unknown"
+
+            race_type = "greyhound" if "greyhound-racing" in self.url else "horse"
 
             self.metadata = {
                 "race_id": self.extract_race_id(self.url),
@@ -58,6 +65,7 @@ class SportsbetRace:
                 "race_name": race_name,
                 "race_number": race_number,
                 "race_time": race_time,
+                "race_type": race_type,
                 "url": self.url
             }
 
@@ -69,8 +77,9 @@ class SportsbetRace:
                 "race_id": self.extract_race_id(self.url),
                 "location": "Unknown Location",
                 "race_name": "Unknown Race",
-                "race_number": "0",
+                "race_number": 0, #reserved unknown number for sportsbet
                 "race_time": "Unknown Time",
+                "race_type": "Unknown",
                 "url": self.url
             }
 
@@ -109,8 +118,10 @@ class SportsbetRace:
                             price_buttons = outcome.find_all("div", class_="priceText_f71sibe")
                             win_fixed = price_buttons[0].text.strip() if len(price_buttons) > 0 else "N/A"
 
+                            # Clean the name - remove apostrophes, special characters and extra spaces
                             horse_name = name.strip().replace('\xa0', '')
                             horse_name = re.sub(r'\s*\(\d+\)', '', horse_name)
+                            horse_name = horse_name.replace("'", "").replace("'", "").strip()
 
                             # Store odds in horse_data
                             horse_data[horse_name] = {

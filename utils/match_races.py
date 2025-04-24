@@ -10,13 +10,17 @@ import os
 logger = setup_logger("MatchRaces")
 
 def standardize(name):
-    """Normalize race name for consistent keying."""
-    return name.lower().replace(" ", "").replace("-", "")
+    """Normalize race name for consistent keying.
+    Removes spaces, hyphens, apostrophes and converts to lowercase for consistent matching."""
+    return name.lower().replace(" ", "").replace("-", "").replace("'", "").replace("'", "")
 
 def make_race_key(race):
-    """Create a unique key based on name and number."""
-    return f"{standardize(race['race_name'])}::{race['race_number']}"
-
+    """Create a unique key for a race based on its metadata."""
+    location = standardize(race["race_name"]) # race['location] only returns the region the race is from!
+    race_number = race["race_number"]
+    race_type = race.get("race_type")  # Default to "horse" for backward compatibility
+    return f"{race_type}_{location}_{race_number}"
+ 
 def is_future_race(race):
     try:
         time_str = race["betfair"]["race_time"]  # or any other scraper
@@ -54,6 +58,7 @@ async def match_races():
 
         # Get intersection of all race keys
         all_keys = list(race_maps.values())
+        logger.info(all_keys)
         common_keys = set(all_keys[0]).intersection(*all_keys[1:])
 
         logger.info(f"Found {len(common_keys)} matched races across all sources")
