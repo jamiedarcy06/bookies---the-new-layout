@@ -102,8 +102,7 @@ class BetfairRace:
                     i = 0
                     for idx, runner in enumerate(runners, start=1):
                         name = runner.text.strip()
-                        # Clean the name - remove apostrophes and other special characters
-                        name = name.replace("'", "").replace("'", "").strip()
+                        name = name.replace("'", "").replace("'", "").replace(".", "").strip()
                         try:
                             oddslist = [odds[i + j].text.strip() for j in range(6)]
                             domlist = [dom[i + j].text.strip() for j in range(6)]

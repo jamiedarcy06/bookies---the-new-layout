@@ -36,8 +36,7 @@ class SportsbetRace:
         try:
             await self.initialize()
             html = await self.page.content()
-            with open('html.html', 'w', encoding='utf-8') as f:
-                f.write(html)
+
             soup = BeautifulSoup(html, "html.parser")
 
             race_title = soup.find("h1", class_=lambda x: x and "title" in x.lower())
@@ -121,7 +120,7 @@ class SportsbetRace:
                             # Clean the name - remove apostrophes, special characters and extra spaces
                             horse_name = name.strip().replace('\xa0', '')
                             horse_name = re.sub(r'\s*\(\d+\)', '', horse_name)
-                            horse_name = horse_name.replace("'", "").replace("'", "").strip()
+                            horse_name = horse_name.replace("'", "").replace("'", "").replace(".", "").strip()
 
                             # Store odds in horse_data
                             horse_data[horse_name] = {

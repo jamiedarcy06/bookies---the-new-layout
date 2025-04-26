@@ -42,6 +42,19 @@ class RaceDashboardCard(QtWidgets.QFrame):
         header.addWidget(time)
         layout.addLayout(header)
         
+        # Race type indicator
+        race_type = race_info.get('race_type', 'unknown')
+        race_type_label = QtWidgets.QLabel(race_type.title())
+        race_type_label.setStyleSheet("""
+            font-size: 12px;
+            color: #90caf9;
+            background-color: #1a237e;
+            border-radius: 4px;
+            padding: 2px 6px;
+            margin: 2px;
+        """)
+        layout.addWidget(race_type_label)
+        
         # Sum of Probabilities
         self.probabilities = QtWidgets.QLabel("Calculating probabilities...")
         self.probabilities.setWordWrap(True)
@@ -281,7 +294,8 @@ class OddsGraph(QtWidgets.QMainWindow):
             self.current_race_index = index
             # Update title with current race info
             race_info = self.matched_races[index]['betfair']
-            self.plot_widget.setTitle(f"Live Odds: {race_info['location']} - Race {race_info['race_number']}", color="w", size="16pt")
+            race_type = race_info.get('race_type', 'unknown').title()
+            self.plot_widget.setTitle(f"Live Odds: {race_info['location']} - Race {race_info['race_number']} ({race_type})", color="w", size="16pt")
             # Clear current display
             self.plot_item.clear()
             self.table.setRowCount(0)

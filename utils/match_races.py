@@ -58,6 +58,15 @@ async def match_races():
 
         # Get intersection of all race keys
         all_keys = list(race_maps.values())
+        
+        # Write all_keys to debug file
+        with open('all_keys.json', 'w', encoding='utf-8') as f:
+            json.dump({
+                'timestamp': datetime.now().isoformat(),
+                'race_maps': race_maps,
+                'all_keys_values': all_keys
+            }, f, indent=2)
+            
         logger.info(all_keys)
         common_keys = set(all_keys[0]).intersection(*all_keys[1:])
 
