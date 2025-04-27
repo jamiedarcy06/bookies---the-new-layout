@@ -67,7 +67,6 @@ async def match_races():
                 'all_keys_values': all_keys
             }, f, indent=2)
             
-        logger.info(all_keys)
         common_keys = set(all_keys[0]).intersection(*all_keys[1:])
 
         logger.info(f"Found {len(common_keys)} matched races across all sources")

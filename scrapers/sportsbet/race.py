@@ -120,10 +120,14 @@ class SportsbetRace:
                             # Clean the name - remove apostrophes, special characters and extra spaces
                             horse_name = name.strip().replace('\xa0', '')
                             horse_name = re.sub(r'\s*\(\d+\)', '', horse_name)
-                            horse_name = horse_name.replace("'", "").replace("'", "").replace(".", "").strip()
+                            # Store original name for display
+                            display_name = horse_name.replace("'", "").replace("'", "").replace(".", "").strip()
+                            # Create lowercase version for dictionary key
+                            dict_key = display_name.lower()
 
                             # Store odds in horse_data
-                            horse_data[horse_name] = {
+                            horse_data[dict_key] = {
+                                "display_name": display_name,
                                 "number": number.strip(),
                                 "3rd_back": None,
                                 "2nd_back": None,

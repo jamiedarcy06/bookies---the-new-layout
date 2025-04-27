@@ -102,12 +102,16 @@ class BetfairRace:
                     i = 0
                     for idx, runner in enumerate(runners, start=1):
                         name = runner.text.strip()
-                        name = name.replace("'", "").replace("'", "").replace(".", "").strip()
+                        # Store original name for display
+                        display_name = name.replace("'", "").replace("'", "").replace(".", "").strip()
+                        # Create lowercase version for dictionary key
+                        dict_key = display_name.lower()
                         try:
                             oddslist = [odds[i + j].text.strip() for j in range(6)]
                             domlist = [dom[i + j].text.strip() for j in range(6)]
 
-                            horse_data[name] = {
+                            horse_data[dict_key] = {
+                                "display_name": display_name,
                                 "number": idx,
                                 "3rd_back": oddslist[0],
                                 "2nd_back": oddslist[1],
@@ -123,7 +127,8 @@ class BetfairRace:
                                 "3rd_lay_dom": domlist[5],
                             }
                         except:
-                            horse_data[name] = {
+                            horse_data[dict_key] = {
+                                "display_name": display_name,
                                 "number": idx,
                                 "3rd_back": None,
                                 "2nd_back": None,
