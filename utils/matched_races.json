@@ -1,0 +1,2802 @@
+[
+  {
+    "betfair": {
+      "race_id": "243008133",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "1",
+      "race_time": "11:06",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008133"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-1-9157452"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008138",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "2",
+      "race_time": "11:22",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008138"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-2-9157456"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008143",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "3",
+      "race_time": "11:38",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008143"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-3-9157451"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008148",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "4",
+      "race_time": "11:54",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008148"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-4-9157449"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950430",
+      "location": "Goulburn",
+      "race_name": "Goulburn",
+      "race_number": "1",
+      "race_time": "12:00",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950430"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Goulburn",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/goulburn/race-1-9152000"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008153",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "5",
+      "race_time": "12:12",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008153"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-5-9157458"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008158",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "6",
+      "race_time": "12:30",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008158"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-6-9157448"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950435",
+      "location": "Goulburn",
+      "race_name": "Goulburn",
+      "race_number": "2",
+      "race_time": "12:35",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950435"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Goulburn",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/goulburn/race-2-9152001"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008163",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "7",
+      "race_time": "12:48",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008163"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-7-9157454"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950744",
+      "location": "Thangool",
+      "race_name": "Thangool",
+      "race_number": "1",
+      "race_time": "12:55",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950744"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Thangool",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/thangool/race-1-9155806"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008168",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "8",
+      "race_time": "13:07",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008168"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-8-9157455"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950440",
+      "location": "Goulburn",
+      "race_name": "Goulburn",
+      "race_number": "3",
+      "race_time": "13:10",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950440"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Goulburn",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/goulburn/race-3-9152003"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008173",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "9",
+      "race_time": "13:26",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008173"
+    },
+    "sportsbet": {
+      "race_id": "9",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "9",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-9-9157453"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242896652",
+      "location": "Mornington",
+      "race_name": "Mornington",
+      "race_number": "1",
+      "race_time": "13:30",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242896652"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Mornington",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/mornington/race-1-9155729"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950749",
+      "location": "Thangool",
+      "race_name": "Thangool",
+      "race_number": "2",
+      "race_time": "13:35",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950749"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Thangool",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/thangool/race-2-9155804"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008178",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "10",
+      "race_time": "13:47",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008178"
+    },
+    "sportsbet": {
+      "race_id": "10",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "10",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-10-9157450"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950445",
+      "location": "Goulburn",
+      "race_name": "Goulburn",
+      "race_number": "4",
+      "race_time": "13:50",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950445"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Goulburn",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/goulburn/race-4-9152002"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242896660",
+      "location": "Mornington",
+      "race_name": "Mornington",
+      "race_number": "2",
+      "race_time": "14:00",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242896660"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Mornington",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/mornington/race-2-9155731"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008183",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "11",
+      "race_time": "14:07",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008183"
+    },
+    "sportsbet": {
+      "race_id": "11",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "11",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-11-9157457"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950754",
+      "location": "Thangool",
+      "race_name": "Thangool",
+      "race_number": "3",
+      "race_time": "14:10",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950754"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Thangool",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/thangool/race-3-9155802"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008268",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "1",
+      "race_time": "14:14",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008268"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-1-9157462"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008188",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "12",
+      "race_time": "14:22",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008188"
+    },
+    "sportsbet": {
+      "race_id": "12",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "12",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-12-9157459"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950450",
+      "location": "Goulburn",
+      "race_name": "Goulburn",
+      "race_number": "5",
+      "race_time": "14:25",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950450"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Goulburn",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/goulburn/race-5-9152006"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008273",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "2",
+      "race_time": "14:29",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008273"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-2-9157469"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242896668",
+      "location": "Mornington",
+      "race_name": "Mornington",
+      "race_number": "3",
+      "race_time": "14:30",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242896668"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Mornington",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/mornington/race-3-9155733"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008193",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "13",
+      "race_time": "14:37",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008193"
+    },
+    "sportsbet": {
+      "race_id": "13",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "13",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-13-9157460"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008203",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "1",
+      "race_time": "14:42",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008203"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-1-9157443"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950759",
+      "location": "Thangool",
+      "race_name": "Thangool",
+      "race_number": "4",
+      "race_time": "14:45",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950759"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Thangool",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/thangool/race-4-9155800"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008278",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "3",
+      "race_time": "14:49",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008278"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-3-9157464"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008198",
+      "location": "Ballarat",
+      "race_name": "Ballarat",
+      "race_number": "14",
+      "race_time": "14:57",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008198"
+    },
+    "sportsbet": {
+      "race_id": "14",
+      "location": "Australia Nz",
+      "race_name": "Ballarat",
+      "race_number": "14",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/ballarat/race-14-9157461"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242896676",
+      "location": "Mornington",
+      "race_name": "Mornington",
+      "race_number": "4",
+      "race_time": "15:00",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242896676"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Mornington",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/mornington/race-4-9155732"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008208",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "2",
+      "race_time": "15:02",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008208"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-2-9157440"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950455",
+      "location": "Goulburn",
+      "race_name": "Goulburn",
+      "race_number": "6",
+      "race_time": "15:05",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950455"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Goulburn",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/goulburn/race-6-9152004"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008283",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "4",
+      "race_time": "15:09",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008283"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-4-9157467"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007583",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "1",
+      "race_time": "15:17",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007583"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-1-9155994"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008213",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "3",
+      "race_time": "15:24",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008213"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-3-9157435"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950764",
+      "location": "Thangool",
+      "race_name": "Thangool",
+      "race_number": "5",
+      "race_time": "15:25",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950764"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Thangool",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/thangool/race-5-9155803"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242896684",
+      "location": "Mornington",
+      "race_name": "Mornington",
+      "race_number": "5",
+      "race_time": "15:30",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242896684"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Mornington",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/mornington/race-5-9155727"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008288",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "5",
+      "race_time": "15:37",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008288"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-5-9157476"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950460",
+      "location": "Goulburn",
+      "race_name": "Goulburn",
+      "race_number": "7",
+      "race_time": "15:40",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950460"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Goulburn",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/goulburn/race-7-9152005"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008218",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "4",
+      "race_time": "15:41",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008218"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-4-9157439"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007588",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "2",
+      "race_time": "15:44",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007588"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-2-9155984"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008293",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "6",
+      "race_time": "15:52",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008293"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-6-9157463"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008223",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "5",
+      "race_time": "15:59",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008223"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-5-9157437"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242896692",
+      "location": "Mornington",
+      "race_name": "Mornington",
+      "race_number": "6",
+      "race_time": "16:00",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242896692"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Mornington",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/mornington/race-6-9155728"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950769",
+      "location": "Thangool",
+      "race_name": "Thangool",
+      "race_number": "6",
+      "race_time": "16:05",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950769"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Thangool",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/thangool/race-6-9155801"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007593",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "3",
+      "race_time": "16:09",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007593"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-3-9155990"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008298",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "7",
+      "race_time": "16:17",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008298"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-7-9157468"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950465",
+      "location": "Goulburn",
+      "race_name": "Goulburn",
+      "race_number": "8",
+      "race_time": "16:20",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950465"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Goulburn",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/goulburn/race-8-9152007"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008228",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "6",
+      "race_time": "16:24",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008228"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-6-9157444"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007598",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "4",
+      "race_time": "16:27",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007598"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-4-9155992"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242896700",
+      "location": "Mornington",
+      "race_name": "Mornington",
+      "race_number": "7",
+      "race_time": "16:30",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242896700"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Mornington",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/mornington/race-7-9155730"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008303",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "8",
+      "race_time": "16:37",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008303"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-8-9157473"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "242950774",
+      "location": "Thangool",
+      "race_name": "Thangool",
+      "race_number": "7",
+      "race_time": "16:40",
+      "race_type": "horse",
+      "url": "https://www.betfair.com.au/exchange/plus/horse-racing/market/1.242950774"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Thangool",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "horse",
+      "url": "https://www.sportsbet.com.au/horse-racing/australia-nz/thangool/race-7-9155805"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008233",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "7",
+      "race_time": "16:41",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008233"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-7-9157438"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007603",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "5",
+      "race_time": "16:44",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007603"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-5-9155993"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008308",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "9",
+      "race_time": "16:55",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008308"
+    },
+    "sportsbet": {
+      "race_id": "9",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "9",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-9-9157470"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008238",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "8",
+      "race_time": "16:59",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008238"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-8-9157445"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007608",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "6",
+      "race_time": "17:07",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007608"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-6-9155989"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008313",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "10",
+      "race_time": "17:15",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008313"
+    },
+    "sportsbet": {
+      "race_id": "10",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "10",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-10-9157471"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008243",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "9",
+      "race_time": "17:23",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008243"
+    },
+    "sportsbet": {
+      "race_id": "9",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "9",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-9-9157441"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007613",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "7",
+      "race_time": "17:26",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007613"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-7-9155987"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008318",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "11",
+      "race_time": "17:34",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008318"
+    },
+    "sportsbet": {
+      "race_id": "11",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "11",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-11-9157465"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008248",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "10",
+      "race_time": "17:42",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008248"
+    },
+    "sportsbet": {
+      "race_id": "10",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "10",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-10-9157447"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007618",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "8",
+      "race_time": "17:45",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007618"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-8-9155988"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008323",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "12",
+      "race_time": "17:53",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008323"
+    },
+    "sportsbet": {
+      "race_id": "12",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "12",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-12-9157474"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008253",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "11",
+      "race_time": "18:04",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008253"
+    },
+    "sportsbet": {
+      "race_id": "11",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "11",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-11-9157446"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007623",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "9",
+      "race_time": "18:07",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007623"
+    },
+    "sportsbet": {
+      "race_id": "9",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "9",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-9-9155986"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008328",
+      "location": "Warrnambool",
+      "race_name": "Warrnambool",
+      "race_number": "13",
+      "race_time": "18:10",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008328"
+    },
+    "sportsbet": {
+      "race_id": "13",
+      "location": "Australia Nz",
+      "race_name": "Warrnambool",
+      "race_number": "13",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/warrnambool/race-13-9157466"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008258",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "12",
+      "race_time": "18:20",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008258"
+    },
+    "sportsbet": {
+      "race_id": "12",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "12",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-12-9157436"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007628",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "10",
+      "race_time": "18:23",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007628"
+    },
+    "sportsbet": {
+      "race_id": "10",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "10",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-10-9155985"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005576",
+      "location": "Angle Park",
+      "race_name": "Angle Park",
+      "race_number": "1",
+      "race_time": "18:30",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005576"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Angle Park",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/angle-park/race-1-9156207"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007522",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "1",
+      "race_time": "18:36",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007522"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-1-9155696"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008263",
+      "location": "Shepparton",
+      "race_name": "Shepparton",
+      "race_number": "13",
+      "race_time": "18:39",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008263"
+    },
+    "sportsbet": {
+      "race_id": "13",
+      "location": "Australia Nz",
+      "race_name": "Shepparton",
+      "race_number": "13",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/shepparton/race-13-9157442"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007633",
+      "location": "Wagga",
+      "race_name": "Wagga",
+      "race_number": "11",
+      "race_time": "18:40",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007633"
+    },
+    "sportsbet": {
+      "race_id": "11",
+      "location": "Australia Nz",
+      "race_name": "Wagga",
+      "race_number": "11",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/wagga/race-11-9155991"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005842",
+      "location": "Albion Park",
+      "race_name": "Albion Park",
+      "race_number": "1",
+      "race_time": "18:42",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005842"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Albion Park",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/albion-park/race-1-9155826"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007234",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "1",
+      "race_time": "18:45",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007234"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-1-9155704"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005581",
+      "location": "Angle Park",
+      "race_name": "Angle Park",
+      "race_number": "2",
+      "race_time": "18:52",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005581"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Angle Park",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/angle-park/race-2-9156211"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007527",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "2",
+      "race_time": "18:58",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007527"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-2-9155695"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008333",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "1",
+      "race_time": "19:01",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008333"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-1-9157480"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005847",
+      "location": "Albion Park",
+      "race_name": "Albion Park",
+      "race_number": "2",
+      "race_time": "19:08",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005847"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Albion Park",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/albion-park/race-2-9155824"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007239",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "2",
+      "race_time": "19:11",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007239"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-2-9155707"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005586",
+      "location": "Angle Park",
+      "race_name": "Angle Park",
+      "race_number": "3",
+      "race_time": "19:14",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005586"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Angle Park",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/angle-park/race-3-9156210"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007990",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "1",
+      "race_time": "19:17",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007990"
+    },
+    "sportsbet": {
+      "race_id": "1",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "1",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-1-9149465"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007532",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "3",
+      "race_time": "19:20",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007532"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-3-9155700"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008338",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "2",
+      "race_time": "19:23",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008338"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-2-9157472"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005852",
+      "location": "Albion Park",
+      "race_name": "Albion Park",
+      "race_number": "3",
+      "race_time": "19:26",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005852"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Albion Park",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/albion-park/race-3-9155825"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007244",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "3",
+      "race_time": "19:33",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007244"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-3-9155711"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005591",
+      "location": "Angle Park",
+      "race_name": "Angle Park",
+      "race_number": "4",
+      "race_time": "19:36",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005591"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Angle Park",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/angle-park/race-4-9156209"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007995",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "2",
+      "race_time": "19:39",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007995"
+    },
+    "sportsbet": {
+      "race_id": "2",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "2",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-2-9149464"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007537",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "4",
+      "race_time": "19:42",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007537"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-4-9155694"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008343",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "3",
+      "race_time": "19:45",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008343"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-3-9157483"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005857",
+      "location": "Albion Park",
+      "race_name": "Albion Park",
+      "race_number": "4",
+      "race_time": "19:48",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005857"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Albion Park",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/albion-park/race-4-9155830"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007249",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "4",
+      "race_time": "19:51",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007249"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-4-9155709"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005596",
+      "location": "Angle Park",
+      "race_name": "Angle Park",
+      "race_number": "5",
+      "race_time": "19:54",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005596"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Angle Park",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/angle-park/race-5-9156205"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008000",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "3",
+      "race_time": "20:01",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008000"
+    },
+    "sportsbet": {
+      "race_id": "3",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "3",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-3-9149463"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007542",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "5",
+      "race_time": "20:04",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007542"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-5-9155698"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008348",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "4",
+      "race_time": "20:07",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008348"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-4-9157478"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005862",
+      "location": "Albion Park",
+      "race_name": "Albion Park",
+      "race_number": "5",
+      "race_time": "20:10",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005862"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Albion Park",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/albion-park/race-5-9155827"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007254",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "5",
+      "race_time": "20:13",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007254"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-5-9155705"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005601",
+      "location": "Angle Park",
+      "race_name": "Angle Park",
+      "race_number": "6",
+      "race_time": "20:16",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005601"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Angle Park",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/angle-park/race-6-9156208"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008005",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "4",
+      "race_time": "20:19",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008005"
+    },
+    "sportsbet": {
+      "race_id": "4",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "4",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-4-9149462"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007547",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "6",
+      "race_time": "20:22",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007547"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-6-9155699"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008353",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "5",
+      "race_time": "20:29",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008353"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-5-9157477"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005867",
+      "location": "Albion Park",
+      "race_name": "Albion Park",
+      "race_number": "6",
+      "race_time": "20:32",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005867"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Albion Park",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/albion-park/race-6-9155828"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007259",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "6",
+      "race_time": "20:35",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007259"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-6-9155703"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005606",
+      "location": "Angle Park",
+      "race_name": "Angle Park",
+      "race_number": "7",
+      "race_time": "20:38",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005606"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Angle Park",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/angle-park/race-7-9156204"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008010",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "5",
+      "race_time": "20:41",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008010"
+    },
+    "sportsbet": {
+      "race_id": "5",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "5",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-5-9149468"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007552",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "7",
+      "race_time": "20:44",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007552"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-7-9155708"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008358",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "6",
+      "race_time": "20:47",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008358"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-6-9157481"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005872",
+      "location": "Albion Park",
+      "race_name": "Albion Park",
+      "race_number": "7",
+      "race_time": "20:50",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005872"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Albion Park",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/albion-park/race-7-9155829"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007264",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "7",
+      "race_time": "20:57",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007264"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-7-9155706"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005611",
+      "location": "Angle Park",
+      "race_name": "Angle Park",
+      "race_number": "8",
+      "race_time": "21:00",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005611"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Angle Park",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/angle-park/race-8-9156213"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008015",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "6",
+      "race_time": "21:03",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008015"
+    },
+    "sportsbet": {
+      "race_id": "6",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "6",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-6-9149459"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007557",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "8",
+      "race_time": "21:06",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007557"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-8-9155697"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008363",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "7",
+      "race_time": "21:09",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008363"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-7-9157479"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005877",
+      "location": "Albion Park",
+      "race_name": "Albion Park",
+      "race_number": "8",
+      "race_time": "21:12",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005877"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Albion Park",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/albion-park/race-8-9155831"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007269",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "8",
+      "race_time": "21:15",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007269"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-8-9155710"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005616",
+      "location": "Angle Park",
+      "race_name": "Angle Park",
+      "race_number": "9",
+      "race_time": "21:18",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005616"
+    },
+    "sportsbet": {
+      "race_id": "9",
+      "location": "Australia Nz",
+      "race_name": "Angle Park",
+      "race_number": "9",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/angle-park/race-9-9156206"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008020",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "7",
+      "race_time": "21:25",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008020"
+    },
+    "sportsbet": {
+      "race_id": "7",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "7",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-7-9149469"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007562",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "9",
+      "race_time": "21:28",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007562"
+    },
+    "sportsbet": {
+      "race_id": "9",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "9",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-9-9155702"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008368",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "8",
+      "race_time": "21:32",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008368"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-8-9157485"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005882",
+      "location": "Albion Park",
+      "race_name": "Albion Park",
+      "race_number": "9",
+      "race_time": "21:35",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005882"
+    },
+    "sportsbet": {
+      "race_id": "9",
+      "location": "Australia Nz",
+      "race_name": "Albion Park",
+      "race_number": "9",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/albion-park/race-9-9155823"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007274",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "9",
+      "race_time": "21:38",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007274"
+    },
+    "sportsbet": {
+      "race_id": "9",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "9",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-9-9155725"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005621",
+      "location": "Angle Park",
+      "race_name": "Angle Park",
+      "race_number": "10",
+      "race_time": "21:41",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005621"
+    },
+    "sportsbet": {
+      "race_id": "10",
+      "location": "Australia Nz",
+      "race_name": "Angle Park",
+      "race_number": "10",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/angle-park/race-10-9156212"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008025",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "8",
+      "race_time": "21:44",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008025"
+    },
+    "sportsbet": {
+      "race_id": "8",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "8",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-8-9149467"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007567",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "10",
+      "race_time": "21:47",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007567"
+    },
+    "sportsbet": {
+      "race_id": "10",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "10",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-10-9155701"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008373",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "9",
+      "race_time": "21:50",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008373"
+    },
+    "sportsbet": {
+      "race_id": "9",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "9",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-9-9157484"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243005887",
+      "location": "Albion Park",
+      "race_name": "Albion Park",
+      "race_number": "10",
+      "race_time": "21:53",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243005887"
+    },
+    "sportsbet": {
+      "race_id": "10",
+      "location": "Australia Nz",
+      "race_name": "Albion Park",
+      "race_number": "10",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/albion-park/race-10-9155822"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007279",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "10",
+      "race_time": "22:02",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007279"
+    },
+    "sportsbet": {
+      "race_id": "10",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "10",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-10-9155722"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008030",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "9",
+      "race_time": "22:05",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008030"
+    },
+    "sportsbet": {
+      "race_id": "9",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "9",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-9-9149460"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007572",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "11",
+      "race_time": "22:08",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007572"
+    },
+    "sportsbet": {
+      "race_id": "11",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "11",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-11-9155712"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008378",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "10",
+      "race_time": "22:12",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008378"
+    },
+    "sportsbet": {
+      "race_id": "10",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "10",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-10-9157475"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007284",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "11",
+      "race_time": "22:19",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007284"
+    },
+    "sportsbet": {
+      "race_id": "11",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "11",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-11-9155726"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008035",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "10",
+      "race_time": "22:23",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008035"
+    },
+    "sportsbet": {
+      "race_id": "10",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "10",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-10-9149461"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007577",
+      "location": "Dubbo",
+      "race_name": "Dubbo",
+      "race_number": "12",
+      "race_time": "22:27",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007577"
+    },
+    "sportsbet": {
+      "race_id": "12",
+      "location": "Australia Nz",
+      "race_name": "Dubbo",
+      "race_number": "12",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/dubbo/race-12-9155713"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008383",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "11",
+      "race_time": "22:35",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008383"
+    },
+    "sportsbet": {
+      "race_id": "11",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "11",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-11-9157486"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243007289",
+      "location": "Maitland",
+      "race_name": "Maitland",
+      "race_number": "12",
+      "race_time": "22:39",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243007289"
+    },
+    "sportsbet": {
+      "race_id": "12",
+      "location": "Australia Nz",
+      "race_name": "Maitland",
+      "race_number": "12",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/maitland/race-12-9155721"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008040",
+      "location": "Launceston",
+      "race_name": "Launceston",
+      "race_number": "11",
+      "race_time": "22:46",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008040"
+    },
+    "sportsbet": {
+      "race_id": "11",
+      "location": "Australia Nz",
+      "race_name": "Launceston",
+      "race_number": "11",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/launceston/race-11-9149466"
+    }
+  },
+  {
+    "betfair": {
+      "race_id": "243008388",
+      "location": "Sandown Park",
+      "race_name": "Sandown Park",
+      "race_number": "12",
+      "race_time": "22:55",
+      "race_type": "greyhound",
+      "url": "https://www.betfair.com.au/exchange/plus/greyhound-racing/market/1.243008388"
+    },
+    "sportsbet": {
+      "race_id": "12",
+      "location": "Australia Nz",
+      "race_name": "Sandown Park",
+      "race_number": "12",
+      "race_time": "0",
+      "race_type": "greyhound",
+      "url": "https://www.sportsbet.com.au/greyhound-racing/australia-nz/sandown-park/race-12-9157482"
+    }
+  }
+]

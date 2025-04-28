@@ -1,0 +1,85 @@
+2025-04-28 11:00:41,302 - RaceMatcher - INFO - Updating race cache with fresh data
+2025-04-28 11:00:41,926 - BetfairScraper - INFO - Fetching available Betfair race URLs
+2025-04-28 11:01:00,115 - BetfairScraper - INFO - Warning: No popup detected on betfair horse racing - we may not get non Australian race urls.
+2025-04-28 11:01:00,152 - BetfairScraper - INFO - Found 46 horse races.
+2025-04-28 11:01:04,794 - BetfairScraper - INFO - Found 118 greyhound races.
+2025-04-28 11:01:04,795 - BetfairScraper - INFO - Found 164 total races.
+2025-04-28 11:01:04,795 - BetfairScraper - INFO - Starting batch processing of race metadata
+2025-04-28 11:01:04,796 - BetfairScraper - INFO - Processing races 1 to 10
+2025-04-28 11:01:09,748 - BetfairScraper - INFO - Processing races 11 to 20
+2025-04-28 11:01:15,420 - BetfairScraper - INFO - Processing races 21 to 30
+2025-04-28 11:01:20,509 - BetfairScraper - INFO - Processing races 31 to 40
+2025-04-28 11:01:26,488 - BetfairScraper - INFO - Processing races 41 to 50
+2025-04-28 11:01:32,099 - BetfairScraper - INFO - Processing races 51 to 60
+2025-04-28 11:01:37,517 - BetfairScraper - INFO - Processing races 61 to 70
+2025-04-28 11:01:43,279 - BetfairScraper - INFO - Processing races 71 to 80
+2025-04-28 11:01:49,377 - BetfairScraper - INFO - Processing races 81 to 90
+2025-04-28 11:01:56,473 - BetfairScraper - INFO - Processing races 91 to 100
+2025-04-28 11:02:03,920 - BetfairScraper - INFO - Processing races 101 to 110
+2025-04-28 11:02:10,792 - BetfairScraper - INFO - Processing races 111 to 120
+2025-04-28 11:02:17,153 - BetfairScraper - INFO - Processing races 121 to 130
+2025-04-28 11:02:24,160 - BetfairScraper - INFO - Processing races 131 to 140
+2025-04-28 11:02:30,399 - BetfairScraper - INFO - Processing races 141 to 150
+2025-04-28 11:02:37,199 - BetfairScraper - INFO - Processing races 151 to 160
+2025-04-28 11:02:43,604 - BetfairScraper - INFO - Processing races 161 to 164
+2025-04-28 11:02:47,795 - SportsbetScraper - INFO - Navigating to https://www.sportsbet.com.au/racing-schedule
+2025-04-28 11:03:03,058 - SportsbetScraper - INFO - Found 548 races.
+2025-04-28 11:03:03,066 - SportsbetScraper - INFO - Starting batch processing of Sportsbet race metadata
+2025-04-28 11:03:03,078 - SportsbetScraper - INFO - Processing races 1 to 10
+2025-04-28 11:03:19,942 - SportsbetScraper - INFO - Processing races 11 to 20
+2025-04-28 11:03:30,876 - SportsbetScraper - INFO - Processing races 21 to 30
+2025-04-28 11:03:41,013 - SportsbetScraper - INFO - Processing races 31 to 40
+2025-04-28 11:03:52,036 - SportsbetScraper - INFO - Processing races 41 to 50
+2025-04-28 11:04:09,557 - SportsbetScraper - INFO - Processing races 51 to 60
+2025-04-28 11:04:19,599 - SportsbetScraper - INFO - Processing races 61 to 70
+2025-04-28 11:04:29,550 - SportsbetScraper - INFO - Processing races 71 to 80
+2025-04-28 11:04:39,877 - SportsbetScraper - INFO - Processing races 81 to 90
+2025-04-28 11:04:50,539 - SportsbetScraper - INFO - Processing races 91 to 100
+2025-04-28 11:05:01,496 - SportsbetScraper - INFO - Processing races 101 to 110
+2025-04-28 11:05:14,225 - SportsbetScraper - INFO - Processing races 111 to 120
+2025-04-28 11:05:25,740 - SportsbetScraper - INFO - Processing races 121 to 130
+2025-04-28 11:05:38,201 - SportsbetScraper - INFO - Processing races 131 to 140
+2025-04-28 11:05:48,618 - SportsbetScraper - INFO - Processing races 141 to 150
+2025-04-28 11:05:58,080 - SportsbetScraper - INFO - Processing races 151 to 160
+2025-04-28 11:06:09,837 - SportsbetScraper - INFO - Processing races 161 to 170
+2025-04-28 11:06:19,045 - SportsbetScraper - INFO - Processing races 171 to 180
+2025-04-28 11:06:29,406 - SportsbetScraper - INFO - Processing races 181 to 190
+2025-04-28 11:06:38,743 - SportsbetScraper - INFO - Processing races 191 to 200
+2025-04-28 11:06:47,368 - SportsbetScraper - INFO - Processing races 201 to 210
+2025-04-28 11:06:56,879 - SportsbetScraper - INFO - Processing races 211 to 220
+2025-04-28 11:07:07,692 - SportsbetScraper - INFO - Processing races 221 to 230
+2025-04-28 11:07:20,707 - SportsbetScraper - INFO - Processing races 231 to 240
+2025-04-28 11:07:28,741 - SportsbetScraper - INFO - Processing races 241 to 250
+2025-04-28 11:07:36,805 - SportsbetScraper - INFO - Processing races 251 to 260
+2025-04-28 11:07:46,513 - SportsbetScraper - INFO - Processing races 261 to 270
+2025-04-28 11:07:57,165 - SportsbetScraper - INFO - Processing races 271 to 280
+2025-04-28 11:08:29,281 - SportsbetScraper - INFO - Processing races 281 to 290
+2025-04-28 11:08:58,796 - SportsbetScraper - INFO - Processing races 291 to 300
+2025-04-28 11:09:31,681 - SportsbetScraper - INFO - Processing races 301 to 310
+2025-04-28 11:10:03,199 - SportsbetScraper - INFO - Processing races 311 to 320
+2025-04-28 11:10:20,115 - SportsbetScraper - INFO - Processing races 321 to 330
+2025-04-28 11:10:42,482 - SportsbetScraper - INFO - Processing races 331 to 340
+2025-04-28 11:10:50,904 - SportsbetScraper - INFO - Processing races 341 to 350
+2025-04-28 11:11:00,475 - SportsbetScraper - INFO - Processing races 351 to 360
+2025-04-28 11:11:12,434 - SportsbetScraper - INFO - Processing races 361 to 370
+2025-04-28 11:11:24,885 - SportsbetScraper - INFO - Processing races 371 to 380
+2025-04-28 11:11:39,320 - SportsbetScraper - INFO - Processing races 381 to 390
+2025-04-28 11:11:54,249 - SportsbetScraper - INFO - Processing races 391 to 400
+2025-04-28 11:12:04,809 - SportsbetScraper - INFO - Processing races 401 to 410
+2025-04-28 11:12:20,967 - SportsbetScraper - INFO - Processing races 411 to 420
+2025-04-28 11:12:32,929 - SportsbetScraper - INFO - Processing races 421 to 430
+2025-04-28 11:12:45,769 - SportsbetScraper - INFO - Processing races 431 to 440
+2025-04-28 11:12:57,400 - SportsbetScraper - INFO - Processing races 441 to 450
+2025-04-28 11:13:12,356 - SportsbetScraper - INFO - Processing races 451 to 460
+2025-04-28 11:13:23,075 - SportsbetScraper - INFO - Processing races 461 to 470
+2025-04-28 11:13:35,499 - SportsbetScraper - INFO - Processing races 471 to 480
+2025-04-28 11:13:44,648 - SportsbetScraper - INFO - Processing races 481 to 490
+2025-04-28 11:13:58,542 - SportsbetScraper - INFO - Processing races 491 to 500
+2025-04-28 11:14:09,245 - SportsbetScraper - INFO - Processing races 501 to 510
+2025-04-28 11:14:19,304 - SportsbetScraper - INFO - Processing races 511 to 520
+2025-04-28 11:14:31,366 - SportsbetScraper - INFO - Processing races 521 to 530
+2025-04-28 11:14:39,819 - SportsbetScraper - INFO - Processing races 531 to 540
+2025-04-28 11:14:53,769 - SportsbetScraper - INFO - Processing races 541 to 548
+2025-04-28 11:15:02,692 - RaceMatcher - INFO - Found 140 matched races across all sources
+2025-04-28 11:15:04,763 - RaceMatcher - INFO - Cache updated successfully with 140 races
+2025-04-28 11:15:04,764 - RaceMatcher - INFO - Race cache updated successfully. You can now run the main application.

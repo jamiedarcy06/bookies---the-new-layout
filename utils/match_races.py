@@ -23,12 +23,13 @@ def make_race_key(race):
  
 def is_future_race(race):
     try:
-        time_str = race["betfair"]["race_time"]  # or any other scraper
+        time_str = race["betfair"]["race_time"]
         race_time = datetime.strptime(time_str, "%H:%M").time()
         now = datetime.now().time()
         return race_time > now
     except Exception as e:
         logger.info(f"Error in determining if a race is in the future: {e}")
+        return False
 
 async def get_all_scrapers(context):
     return {
@@ -94,37 +95,33 @@ def get_race_datetime(race):
         return datetime.combine(today, race_time)
     except Exception as e:
         logger.info(f"Error getting race datetime: {e}")
-        return datetime.max  # Put races with invalid times at the end
+        return datetime.max
 
 def sort_races_by_time(matches):
     """Sort races by their start time."""
     return sorted(matches, key=get_race_datetime)
 
-async def load_or_create_matched_races(tommorow=False): # this dosen't change the tommorow above lmao
-    if is_file_modified_today(MATCHED_RACES_FILE):
-        with open(MATCHED_RACES_FILE, "r", encoding="utf-8") as f:
-            logger.info("Reading matched races from cache.")
-            all_matches = json.load(f)
-    else:
-        logger.info("No cache or outdated cache. Running match.")
-        all_matches = await match_races()
-        with open(MATCHED_RACES_FILE, "w", encoding="utf-8") as f:
-            json.dump(all_matches, f, indent=2)
+async def load_matched_races(tommorow=False):
+    """Load matched races from cache."""
+    if not os.path.exists(MATCHED_RACES_FILE):
+        logger.error("No race cache found. Please run the race matcher service first.")
+        return []
 
-    if tommorow == True:
+    with open(MATCHED_RACES_FILE, "r", encoding="utf-8") as f:
+        logger.info("Reading matched races from cache.")
+        all_matches = json.load(f)
+
+    if tommorow:
         logger.info("Matched races are being served with tommorow=True")
 
     # Filter races that are still upcoming
-    upcoming_matches = [match for match in all_matches if (is_future_race(match) or tommorow == True)]
+    upcoming_matches = [match for match in all_matches if (is_future_race(match) or tommorow)]
     # Sort races by time
-    sorted_matches = sort_races_by_time(upcoming_matches)
-    return sorted_matches
-
-
+    return sort_races_by_time(upcoming_matches)
 
 # For testing
 if __name__ == "__main__":
     logger.info("Testing match_races.py")
-    matches = asyncio.run(load_or_create_matched_races())
+    matches = asyncio.run(load_matched_races())
     for match in matches:
         print(match)

@@ -4,7 +4,7 @@ from scrapers.sportsbet.race import SportsbetRace
 from scrapers.betfair.browser import BrowserManager
 from ui.app import launch_ui
 from data.odds_store import shared_odds
-from utils.match_races import load_or_create_matched_races
+from utils.match_races import load_matched_races
 from utils.logger import setup_logger
 from collections import defaultdict
 
@@ -15,7 +15,7 @@ race_odds = defaultdict(dict)
 
 async def coordinator():
     async with BrowserManager() as context:
-        matched_races = await load_or_create_matched_races(tommorow=False)
+        matched_races = await load_matched_races(tommorow=False)
         # Limit to first 5 races
         matched_races = matched_races[:5]
         logger.info(f"Processing {len(matched_races)} races")
@@ -70,23 +70,19 @@ async def coordinator():
                     asyncio.create_task(bf.stream_odds())
                 ])
             
-            stream_tasks.append(asyncio.create_task(update_odds()))
+            # Start the odds update task
+            update_task = asyncio.create_task(update_odds())
             
             # Wait for all tasks to complete
-            await asyncio.gather(*stream_tasks)
-
+            await asyncio.gather(*stream_tasks, update_task)
+            
         except Exception as e:
             logger.error(f"Error in coordinator: {e}")
-        finally:
-            # Cleanup all race objects
-            cleanup_tasks = []
+            # Cleanup race objects
             for sb, bf in race_objects:
-                cleanup_tasks.extend([
-                    asyncio.create_task(sb.cleanup()),
-                    asyncio.create_task(bf.cleanup())
-                ])
-            await asyncio.gather(*cleanup_tasks)
+                await sb.cleanup()
+                await bf.cleanup()
 
 if __name__ == "__main__":
-    launch_ui(coordinator, matched_races=load_or_create_matched_races)
+    launch_ui(coordinator, matched_races=load_matched_races)
     
